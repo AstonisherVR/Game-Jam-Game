@@ -1,3 +1,13 @@
-[gd_scene format=3 uid="uid://dscvl0y41mu56"]
+[gd_scene load_steps=3 format=3 uid="uid://dscvl0y41mu56"]
+
+[ext_resource type="PackedScene" uid="uid://qeqhicvnubyd" path="res://Scenes/player.tscn" id="1_07aek"]
+[ext_resource type="PackedScene" uid="uid://5wb23j5ppe2n" path="res://Scenes/tilemap_collection.tscn" id="2_20ofx"]
 
 [node name="World" type="Node2D"]
+clip_children = 2
+y_sort_enabled = true
+
+[node name="Tilemap Collection" parent="." instance=ExtResource("2_20ofx")]
+
+[node name="Player" parent="." instance=ExtResource("1_07aek")]
+position = Vector2(148, 126)

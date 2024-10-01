@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://rgts0ww5ve78"
+path="res://.godot/imported/Voice4.wav-e5d35c30850f9f6f6eea5a29a3c9ea16.sample"
+
+[deps]
+
+source_file="res://2D Sprites/Asset Packs/Ninja Adventure - Asset Pack (Tutorial)/Ninja Adventure - Asset Pack/Sounds/Game/Voice4.wav"
+dest_files=["res://.godot/imported/Voice4.wav-e5d35c30850f9f6f6eea5a29a3c9ea16.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
